@@ -2,7 +2,6 @@ const __menuConf = {
     "menu": undefined,
     "item": undefined,
     "menuState": false,
-    "hasItemEventFunction": false,
     "oldContent": [],
 
     // Style of menu
@@ -101,19 +100,20 @@ const __menuConf = {
     },
 };
 
-// The eventlisteners
-document.oncontextmenu = (e) => {
+// Contextmenu-eventlistener
+document.addEventListener("contextmenu", (e) => {
     if (__menuEnabled) {
         e.preventDefault();
     }
     __menuConf.menuState = !__menuConf.menuState;
     __menuConf.menuEvent(e);
-}
+}, false);
 
-document.onclick = () => {
+// Click-eventlistener
+document.addEventListener("click", () => {
     __menuConf.menuState = false;
     closeMenu();
-}
+}, false);
 
 // Open the menu
 function openMenu(e) {
@@ -128,4 +128,4 @@ function closeMenu() {
 }
 
 // Starts the lib
-window.onload = __menuConf.startMenu;
+window.addEventListener("load", __menuConf.startMenu, false);
