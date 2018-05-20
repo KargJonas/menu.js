@@ -1,6 +1,9 @@
 # menu.js
 ### A simple library for creating menus.
 
+![Menu Preview](https://github.com/KargJonas/random/blob/master/menu.js/preview.png)
+![Menu Preview](https://github.com/KargJonas/random/blob/master/menu.js/preview-hover.png)
+
 To integrate into your project:
 ```html
 <script defer src="your/path/to/menu.min.js"></script>
