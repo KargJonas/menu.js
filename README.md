@@ -1,3 +1,5 @@
+![Version](https://img.shields.io/badge/Version-v1.0-brightgreen.svg)
+
 # menu.js
 ### A simple library for creating menus.
 
