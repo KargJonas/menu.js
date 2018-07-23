@@ -3,7 +3,7 @@
 # menu.js
 ### A simple library for creating menus.
 
-> Someone wrote a little documentation about this library. YOu can check it out here: https://www.cssscript.com/right-click-context-menu/
+> Someone wrote a little documentation about this library. You can check it out here: https://www.cssscript.com/right-click-context-menu/
 <br>
 
 ![Menu Preview](https://github.com/KargJonas/random/blob/master/menu.js/preview2.png)
